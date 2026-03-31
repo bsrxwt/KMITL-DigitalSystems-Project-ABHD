@@ -5,45 +5,312 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABHD Project Schematics</title>
     <style>
+        /* Import Retro Arcade Font */
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: sans-serif;
-            margin: 40px;
-            line-height: 1.6;
+            font-family: 'Press Start 2P', cursive;
+            background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #fff;
+            position: relative;
+            overflow-x: hidden;
         }
-        h1, h2 {
-            color: #333;
+
+        /* Arcade Screen Scanline Effect */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.15) 0px,
+                rgba(0, 0, 0, 0.15) 1px,
+                transparent 1px,
+                transparent 2px
+            );
+            pointer-events: none;
+            z-index: 1000;
         }
+
+        /* Main Container */
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        /* Glowing Neon Title */
+        h1 {
+            font-size: clamp(1.2rem, 4vw, 2.5rem);
+            color: #00ffff;
+            text-shadow:
+                0 0 10px #00ffff,
+                0 0 20px #00ffff,
+                0 0 30px #00ffff,
+                0 0 40px #00d4ff,
+                0 0 70px #00d4ff,
+                0 0 80px #00d4ff,
+                0 0 100px #00d4ff;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+            animation: flicker 1.5s infinite alternate;
+            line-height: 1.5;
+        }
+
+        /* Neon Subtitle */
+        h2 {
+            font-size: clamp(0.8rem, 2.5vw, 1.2rem);
+            color: #ff00ff;
+            text-shadow:
+                0 0 10px #ff00ff,
+                0 0 20px #ff00ff,
+                0 0 30px #ff00ff,
+                0 0 40px #ff00ff;
+            margin: 30px 0 20px 0;
+            letter-spacing: 1px;
+        }
+
+        /* Flicker Animation for Title */
+        @keyframes flicker {
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+                opacity: 1;
+                text-shadow:
+                    0 0 10px #00ffff,
+                    0 0 20px #00ffff,
+                    0 0 30px #00ffff,
+                    0 0 40px #00d4ff,
+                    0 0 70px #00d4ff,
+                    0 0 80px #00d4ff,
+                    0 0 100px #00d4ff;
+            }
+            20%, 24%, 55% {
+                opacity: 0.9;
+                text-shadow:
+                    0 0 5px #00ffff,
+                    0 0 10px #00ffff,
+                    0 0 15px #00ffff;
+            }
+        }
+
+        /* Brick List Container */
         ul {
             list-style-type: none;
-            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 20px 0;
+            max-width: 600px;
+            margin: 0 auto;
         }
+
+        /* Brick Styling */
         li {
-            margin-bottom: 10px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.3s ease;
         }
-        a {
+
+        li a {
+            display: block;
             text-decoration: none;
-            color: #0366d6;
-            font-size: 18px;
+            padding: 18px 25px;
+            font-size: clamp(0.6rem, 2vw, 0.9rem);
+            font-weight: bold;
+            text-align: center;
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.2s ease;
+            letter-spacing: 1px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
         }
-        a:hover {
-            text-decoration: underline;
+
+        /* 3D Bevel Effect */
+        li a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+            pointer-events: none;
+        }
+
+        li a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(0deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);
+            pointer-events: none;
+        }
+
+        /* Arcade Brick Colors - Using :nth-child */
+        li:nth-child(1) a {
+            background: #ff0040;
+            color: #fff;
+            box-shadow: 0 6px 0 #990028, 0 8px 15px rgba(255, 0, 64, 0.4);
+        }
+
+        li:nth-child(2) a {
+            background: #00ffff;
+            color: #000;
+            box-shadow: 0 6px 0 #009999, 0 8px 15px rgba(0, 255, 255, 0.4);
+        }
+
+        li:nth-child(3) a {
+            background: #ffff00;
+            color: #000;
+            box-shadow: 0 6px 0 #999900, 0 8px 15px rgba(255, 255, 0, 0.4);
+        }
+
+        li:nth-child(4) a {
+            background: #00ff00;
+            color: #000;
+            box-shadow: 0 6px 0 #009900, 0 8px 15px rgba(0, 255, 0, 0.4);
+        }
+
+        li:nth-child(5) a {
+            background: #ff00ff;
+            color: #fff;
+            box-shadow: 0 6px 0 #990099, 0 8px 15px rgba(255, 0, 255, 0.4);
+        }
+
+        li:nth-child(6) a {
+            background: #ff6600;
+            color: #fff;
+            box-shadow: 0 6px 0 #993d00, 0 8px 15px rgba(255, 102, 0, 0.4);
+        }
+
+        li:nth-child(7) a {
+            background: #00ff99;
+            color: #000;
+            box-shadow: 0 6px 0 #009959, 0 8px 15px rgba(0, 255, 153, 0.4);
+        }
+
+        li:nth-child(8) a {
+            background: #9933ff;
+            color: #fff;
+            box-shadow: 0 6px 0 #5c1f99, 0 8px 15px rgba(153, 51, 255, 0.4);
+        }
+
+        li:nth-child(9) a {
+            background: #ff0099;
+            color: #fff;
+            box-shadow: 0 6px 0 #990059, 0 8px 15px rgba(255, 0, 153, 0.4);
+        }
+
+        /* Brick "Hit" Hover Effect */
+        li:hover {
+            transform: translateY(4px);
+        }
+
+        li a:hover {
+            transform: scale(0.98);
+            box-shadow: 0 2px 0 rgba(0,0,0,0.5), 0 4px 10px rgba(255,255,255,0.6);
+            filter: brightness(1.5);
+            animation: brickHit 0.3s ease;
+        }
+
+        @keyframes brickHit {
+            0%, 100% {
+                background-position: 0 0;
+            }
+            50% {
+                background-position: 10px 0;
+                filter: brightness(2);
+            }
+        }
+
+        /* Pulse glow on hover */
+        li a:hover::before {
+            animation: glowPulse 0.5s ease-in-out;
+        }
+
+        @keyframes glowPulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+                background: rgba(255,255,255,0.7);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 20px 10px;
+            }
+
+            h1 {
+                margin-bottom: 20px;
+            }
+
+            li a {
+                padding: 15px 20px;
+            }
+
+            ul {
+                gap: 10px;
+            }
+        }
+
+        /* Extra: Paddle at bottom (decorative) */
+        body::after {
+            content: '';
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 20px;
+            background: linear-gradient(180deg, #fff 0%, #ccc 100%);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255,255,255,0.3);
+            z-index: 999;
         }
     </style>
 </head>
 <body>
-    <h1>ABHD Project: Top-down Design</h1>
+    <div class="container">
+        <h1>ABHD Project: Top-down Design</h1>
 
-    <h2>Schematics</h2>
-    <ul>
-        <li>📄 <a href="DB_P1_L.pdf" target="_blank">DB_P1_L.pdf</a></li>
-        <li>📄 <a href="DB_P1_R.pdf" target="_blank">DB_P1_R.pdf</a></li>
-        <li>📄 <a href="DB_P1_S.pdf" target="_blank">DB_P1_S.pdf</a></li>
-        <li>📄 <a href="DB_P2_L.pdf" target="_blank">DB_P2_L.pdf</a></li>
-        <li>📄 <a href="DB_P2_R.pdf" target="_blank">DB_P2_R.pdf</a></li>
-        <li>📄 <a href="GAME_CORE.pdf" target="_blank">GAME_CORE.pdf</a></li>
-        <li>📄 <a href="Inst_7Seg.pdf" target="_blank">Inst_7Seg.pdf</a></li>
-        <li>📄 <a href="topdown0.pdf" target="_blank">topdown0.pdf</a></li>
-        <li>📄 <a href="topdown1.pdf" target="_blank">topdown1.pdf</a></li>
-    </ul>
+        <h2>Links to PDFs</h2>
+        <ul>
+            <li><a href="DB_P1_L.pdf" target="_blank">DB_P1_L.pdf</a></li>
+            <li><a href="DB_P1_R.pdf" target="_blank">DB_P1_R.pdf</a></li>
+            <li><a href="DB_P1_S.pdf" target="_blank">DB_P1_S.pdf</a></li>
+            <li><a href="DB_P2_L.pdf" target="_blank">DB_P2_L.pdf</a></li>
+            <li><a href="DB_P2_R.pdf" target="_blank">DB_P2_R.pdf</a></li>
+            <li><a href="GAME_CORE.pdf" target="_blank">GAME_CORE.pdf</a></li>
+            <li><a href="Inst_7Seg.pdf" target="_blank">Inst_7Seg.pdf</a></li>
+            <li><a href="topdown0.pdf" target="_blank">topdown0.pdf</a></li>
+            <li><a href="topdown1.pdf" target="_blank">topdown1.pdf</a></li>
+        </ul>
+    </div>
 </body>
 </html>
