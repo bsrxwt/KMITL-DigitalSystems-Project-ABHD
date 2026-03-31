@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\User\Desktop\Digiproject\ABHD\main.vhd" Line 96: Net &lt;<arg fmt="%s" index="1">p1_y[10]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\User\Desktop\Digiproject\ABHD\main.vhd" Line 97: Net &lt;<arg fmt="%s" index="1">p2_y[10]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\User\Desktop\Digiproject\ABHD\main.vhd" Line 98: Net &lt;<arg fmt="%s" index="1">ball_w[9]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\User\Desktop\Digiproject\ABHD\main.vhd" Line 109: Net &lt;<arg fmt="%s" index="1">particles[0]_w[9]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">SW_DIFF0</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">SW_DIFF1</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">p1_y</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00110100100</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">p1_w</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000110000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">p1_h</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">p2_y</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00110100100</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">p2_w</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000110000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">p2_h</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">ball_w</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">ball_h</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">particles[0]_w</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">particles[0]_h</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">particles[1]_w</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">particles[1]_h</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">particles[2]_w</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">particles[2]_h</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">particles[3]_w</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">particles[3]_h</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">game_engine</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000001000</arg>).
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">particles[1]_dx_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">GAME_CORE</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">19 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;particles[0]_dx_0&gt; &lt;particles[0]_dx_2&gt; &lt;particles[0]_dx_3&gt; &lt;particles[0]_dx_4&gt; &lt;particles[0]_dy_0&gt; &lt;particles[0]_dy_2&gt; &lt;particles[0]_dy_3&gt; &lt;particles[0]_dy_4&gt; &lt;particles[1]_dy_0&gt; &lt;particles[1]_dy_2&gt; &lt;particles[1]_dy_3&gt; &lt;particles[1]_dy_4&gt; &lt;particles[2]_dx_0&gt; &lt;particles[2]_dx_2&gt; &lt;particles[2]_dx_3&gt; &lt;particles[2]_dx_4&gt; &lt;particles[2]_dy_0&gt; &lt;particles[3]_dx_0&gt; &lt;particles[3]_dy_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">particles[1]_dx_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">GAME_CORE</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">19 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;particles[1]_dx_2&gt; &lt;particles[1]_dx_3&gt; &lt;particles[1]_dx_4&gt; &lt;particles[0]_dx_1&gt; &lt;particles[0]_dy_1&gt; &lt;particles[1]_dy_1&gt; &lt;particles[2]_dx_1&gt; &lt;particles[2]_dy_1&gt; &lt;particles[2]_dy_2&gt; &lt;particles[2]_dy_3&gt; &lt;particles[2]_dy_4&gt; &lt;particles[3]_dx_1&gt; &lt;particles[3]_dx_2&gt; &lt;particles[3]_dx_3&gt; &lt;particles[3]_dx_4&gt; &lt;particles[3]_dy_1&gt; &lt;particles[3]_dy_2&gt; &lt;particles[3]_dy_3&gt; &lt;particles[3]_dy_4&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[1]_dx_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">GAME_CORE</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">particles[1]_dx_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">GAME_CORE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">base_speed_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">GAME_CORE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_GND_8_o_GND_8_o_Mux_940_o</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n6374</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n6391</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_refresh_counter[15]_X_9_o_wide_mux_3_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_refresh_counter[15]_GND_16_o_wide_mux_1_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[0]_dx_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[0]_dy_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[1]_dx_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[1]_dx_2</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[1]_dx_3</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[1]_dx_4</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[1]_dy_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[2]_dx_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[2]_dy_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[2]_dy_2</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[2]_dy_3</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[2]_dy_4</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[3]_dx_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[3]_dx_2</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[3]_dx_3</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[3]_dx_4</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[3]_dy_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[3]_dy_2</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[3]_dy_3</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">particles[3]_dy_4</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">game_engine</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">base_speed_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[3]_dy_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[3]_dx_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[2]_dy_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[2]_dx_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[2]_dx_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[2]_dx_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[2]_dx_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[1]_dy_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[1]_dy_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[1]_dy_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[1]_dy_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[1]_dx_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[0]_dy_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[0]_dy_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[0]_dy_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[0]_dy_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[0]_dx_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[0]_dx_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[0]_dx_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">particles[0]_dx_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">particles[0]_dx_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">game_engine</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">19 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;particles[0]_dy_1&gt; &lt;particles[1]_dx_1&gt; &lt;particles[1]_dx_2&gt; &lt;particles[1]_dx_3&gt; &lt;particles[1]_dx_4&gt; &lt;particles[1]_dy_1&gt; &lt;particles[2]_dx_1&gt; &lt;particles[2]_dy_1&gt; &lt;particles[2]_dy_2&gt; &lt;particles[2]_dy_3&gt; &lt;particles[2]_dy_4&gt; &lt;particles[3]_dx_1&gt; &lt;particles[3]_dx_2&gt; &lt;particles[3]_dx_3&gt; &lt;particles[3]_dx_4&gt; &lt;particles[3]_dy_1&gt; &lt;particles[3]_dy_2&gt; &lt;particles[3]_dy_3&gt; &lt;particles[3]_dy_4&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">p2_x_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">p2_x_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">p1_x_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">p1_x_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">pause_delay_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game_engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/p_time_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/buzzer_counter_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/buzzer_counter_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/buzzer_counter_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/buzzer_counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/buzzer_counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/buzzer_counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/buzzer_counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/buzzer_counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/buzzer_counter_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/buzzer_counter_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MAIN</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/ball_dy_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/ball_dx_0&gt; &lt;GAME_CORE/base_speed_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[2]_x_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[0]_x_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[2]_x_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[0]_x_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[2]_x_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[0]_x_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[2]_x_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[0]_x_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/game_counter_0&gt; &lt;Inst_7Seg/refresh_counter_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[2]_x_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[0]_x_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/game_counter_1&gt; &lt;Inst_7Seg/refresh_counter_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[2]_x_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[0]_x_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/game_counter_2&gt; &lt;Inst_7Seg/refresh_counter_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[2]_x_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[0]_x_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/game_counter_3&gt; &lt;Inst_7Seg/refresh_counter_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[2]_x_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[0]_x_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/freq_counter_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_7Seg/refresh_counter_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/s_d0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/score_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_x_0&gt; &lt;GAME_CORE/particles[1]_x_0&gt; &lt;GAME_CORE/particles[0]_x_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_x_1&gt; &lt;GAME_CORE/particles[1]_x_1&gt; &lt;GAME_CORE/particles[0]_x_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[1]_x_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[1]_x_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[1]_x_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[1]_x_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[1]_x_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[1]_x_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[1]_x_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[1]_x_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_0&gt; &lt;GAME_CORE/particles[1]_y_0&gt; &lt;GAME_CORE/particles[0]_y_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_y_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[2]_y_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[3]_x_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[1]_x_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GAME_CORE/particles[2]_x_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MAIN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GAME_CORE/particles[0]_x_10&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2254" delta="new" >Area constraint could not be met for block &lt;<arg fmt="%s" index="1">MAIN</arg>&gt;, final ratio is <arg fmt="%i" index="2">110</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="new" > (*) More than 100% of Device resources are used
+</msg>
+
+</messages>

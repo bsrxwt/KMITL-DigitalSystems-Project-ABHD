@@ -1,0 +1,5 @@
+vhdl work "image_pack.vhd"
+vhdl work "seven_seg_display.vhd"
+vhdl work "main.vhd"
+vhdl work "debouncer.vhd"
+vhdl work "game_engine.vhd"
